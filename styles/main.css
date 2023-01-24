@@ -1,0 +1,93 @@
+.pageHeader {
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.header-container {
+    display: flex;
+    justify-content: center; /* center the items horizontally */
+    align-items: center; /* center the items vertically */
+  }
+
+.fishlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0.3rem;
+    background-color: rgb(45, 121, 121);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border-bottom: 5px solid #ffffff;
+}
+
+.fish {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    font-size: 1.2rem;
+  }
+
+.fish {
+    background: right/contain content-box border-box no-repeat rgb(246, 241, 229);
+}
+
+.fish-img {
+    border: 5px solid #f9e2e2;
+  }
+
+
+.quotes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(232, 229, 246);
+    font-size: 1.2rem;
+    text-align: center;
+    border-bottom: 5px solid #ffffff;
+}
+
+.listheader {
+ text-align: center;
+ background-color: rgb(255, 255, 198);
+ padding: 0.3rem;
+}
+
+.locationslist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(246, 241, 229);
+    font: 1rem 'Fira Sans', sans-serif;
+    text-align: center
+}
+.location {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    font-size: 1.2rem;
+  }
+.location {
+    background: right/contain content-box border-box no-repeat rgb(45, 121, 121);
+}
+
+.container {
+    display: flex;
+  }
+  .main-content {
+    width: 75%;
+  }
+  .notes {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    width: 25%;
+    background-color: rgb(246, 241, 229);
+    padding: 20px;
+    position: relative;
+    top:0;
+    right:0;
+    text-align: center
+
+  }
+  
+  .notespara {
+    background-color: #f9e2e2;
+  }
